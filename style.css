@@ -1,0 +1,141 @@
+html, body, h1, h2, h3, h4, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(129, 165, 243);
+    text-align: left;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-top: 0%;
+    
+}
+#logo {
+    font-size: 30px;
+    color: rgb(116, 7, 126);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2%;
+}
+
+h1 {
+    margin-top: 8%;
+    margin-left: 1%;
+}
+
+.search {
+  width: 70%;
+  position: right;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  color: gray;
+}
+
+.searchTerm:focus{
+  color: gray;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: gray;
+  text-align: center;
+  color: gray;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 40%;
+  position: absolute;
+  top: 1%;
+  left: 20%;
+}
+
+.search2 {
+    width: 50%;
+    position: right;
+    display: flex;
+  }
+  
+  .searchTerm2 {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    color: gray;
+  }
+  
+  .searchTerm2:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton2 {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: gray;
+    text-align: center;
+    color: gray;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap2{
+    width: 30%;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+  }
+  
+  .button {
+    background-color: purple;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+    position: absolute;
+    width: 10%;
+    top: 1%;
+    right: 20%;
+  }
+
+  .sobre {
+    color: black;
+    margin-left: 85%;
+    font-size: 15px;
+}
+
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 5px;
+  }
+
+p {
+ margin-left: 5%;
+ margin-top: 5px;
+}
